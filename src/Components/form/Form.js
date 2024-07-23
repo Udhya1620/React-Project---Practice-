@@ -1,8 +1,8 @@
 import React from 'react'
-
+import './Form.css';
 function Form() {
     return (
-        <div>  <div className="first-div">
+        <div className='primary-div'>  <div className="first-div">
             <h1>Registration form</h1>
             <form>
                 <label>First Name :  </label>
