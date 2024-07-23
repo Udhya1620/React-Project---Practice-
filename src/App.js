@@ -1,14 +1,17 @@
 import React from 'react';
 import './App.css';
-import Navbar from './pages/Navbar.js';
-import Newpage from './pages/Newpage.js';
-import Form from './pages/Form.js';
+// import Navbar from './Components/Navbar.js';
+// import NewPage from './Components/Newpage.js';
+// import Form from './Components/Form.js';
+import Category from './Components/category/Category';
 
 function App() {
   return (
     <div className="App">
+    {/* <Navbar/>
     <Form/>
-  
+     <NewPage/> */}
+    <Category/>
     </div>
   );
 }
